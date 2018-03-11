@@ -40,19 +40,19 @@
 
 %%% DEFINE USER DATA
 \newcommand{\Name}{
-{\huge \textbf{San Zhang}}
+{\huge \textbf{Sean Deaton}}
 }%
 \newcommand{\Description}{
-{\large PhD in Computer Science}
+{\large Computer Science}
 }%
 \newcommand{\Email}{
-zhangsan@website.com
+spam@website.com
 }%
 \newcommand{\Phone}{
-+86 1234567
+(999) 999-999
 }%
 \newcommand{\Site}{
-	{ www.homepage.com }
+	{ www.seandeaton.com }
 }%
 %%%
 
@@ -69,12 +69,12 @@ zhangsan@website.com
 \foreach \i in {0,1} \foreach \j in {0,1,2,3,4} {
    \node at (\i*\cardw+0.22\cardw,\j*\cardh+0.35\cardh) {
    \begin{pspicture} (12mm,32mm)
-   			\psbarcode{MECARD:N:San,Zhang;TEL:+861234567;EMAIL:zhangsan@website.com;URL:http://www.homepage.com}{eclevel=M width=1.0 height=1.0}{qrcode}
+   			\psbarcode{URL:https://www.seandeaton.com}{eclevel=M width=1.0 height=1.0}{qrcode}
    		\end{pspicture}
    };
    
    % logo
-   \node at (\i*\cardw+0.8\cardw,\j*\cardh+0.7\cardh) {\includegraphics[width=0.25\cardw]{github}};
+   \node at (\i*\cardw+0.8\cardw,\j*\cardh+0.7\cardh) {\includegraphics[width=0.30\cardw]{cyber}};
    
    \node[black!25!mycolor][right] at (\i*\cardw+0.05\cardw,\j*\cardh+0.85\cardh) {\Name};
    \node [right] at (\i*\cardw+0.05\cardw,\j*\cardh+0.7\cardh) {\Description};

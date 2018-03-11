@@ -1,9 +1,8 @@
 # Latex Business Card
-Simple latex business card template for English and Chinese.
+Simple latex business card template.
 
-## Screen shot
-![](https://raw.github.com/Jiaolong/latex-business-card/master/screenshot_cn.png)
-![](https://raw.github.com/Jiaolong/latex-business-card/master/screenshot_en.png)
+## Screenshot
+![Example business card](screenshot.png)
 
 ## Build pdflatex
 ```sh
@@ -12,5 +11,6 @@ Simple latex business card template for English and Chinese.
 ```
 
 ## Reference
+- Forked from [Jiaolong](https://github.com/Jiaolong/latex-business-card)
 - [Amet13](https://github.com/Amet13/business-card)
 - [Karol Kozioł](http://www.karol-koziol.net/tex/)
