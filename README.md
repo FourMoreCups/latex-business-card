@@ -1,13 +1,25 @@
 # Latex Business Card
-Simple latex business card template.
+Simple LaTeX business card template.
 
 ## Screenshot
 ![Example business card](screenshot.png)
 
-## Build pdflatex
+## Requirements
+- Requires pdfTeX
+### Ubuntu
+To install the pdfTeX, run the following commands:
 ```sh
-./build.sh card_cn.tex
-./build.sh card_en.tex
+sudo apt-get install texlive-latex-base
+```
+### MacOS
+Download MacTeX [here](http://www.tug.org/mactex/index.html).
+## Usage
+```sh
+git clone https://github.com/FourMoreCups/latex-business-card.git
+cd latex-business-card
+make
+make clean
+open card.pdf
 ```
 
 ## Reference
